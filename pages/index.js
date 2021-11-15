@@ -11,6 +11,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <main className={styles.dock}>
+      <footer className={styles.footersobre}>
+      <a className={styles.footerabout}>  
+      My Portfolio
+      </a>
+      <a className={styles.footerabout}>  Sobre</a>
+      <a className={styles.footerabout}>  Projetos</a>
+      </footer>
+      </main>
+
       <main className={styles.main}>
       <Image src="/mioto.jpeg" alt="Mioto" width={200} height={200} className={styles.mioto}/>
         <h1 className={styles.title}>
@@ -39,22 +49,22 @@ export default function Home() {
       Contact
       </a>
         <a
-          href="https://github.com/giomioto"
-
-        >
-          giomioto
-          <span className={styles.logo}>
-            <Image src="/github.svg" alt="GitHub Logo" width={90} height={30} />
-          </span>
-        </a>
-        <a
           href="https://mail.google.com/mail/u/0/#inbox"
 
         >
-          giovanni.mioto@gmail.com
           <span className={styles.logo}>
           <Image src="/email.svg" alt="Email Logo" width={90} height={30} />
           </span>
+          giovanni.mioto@gmail.com
+        </a>
+        <a
+          href="https://github.com/giomioto"
+
+        >
+          <span className={styles.logo}>
+            <Image src="/github.svg" alt="GitHub Logo" width={90} height={30} />
+          </span>
+          giomioto
         </a>
       </footer>
       </main>

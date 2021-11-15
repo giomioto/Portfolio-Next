@@ -14,10 +14,22 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 7rem 0;
   justify-content: center;
   align-items: center;
   background-color:darkcyan;
+}
+.footersobre {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  
+  background-color:darkcyan;
+}
+.footerabout {
+  padding-right: 30px;
+  align-items: center;
 }
 
 .footer a {
@@ -29,7 +41,6 @@
 .dock {
   display: flex;
   flex: 1;
-  padding-top:240px;
 }
 .interesses {
   display: flex;
